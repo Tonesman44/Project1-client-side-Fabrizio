@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Destination title</h1>
+
+        <script>
+            // card constructor
+            function destinationCard(id, location, description, image) {
+                this.id = id;
+                this.location = location;
+                this.description = description;
+                this.image = image;
+            }
+
+            //json data of card
+            const destinationCard1Json = 
+            {
+                "id": "1",
+                "location": "Philadelphia",
+                "description": "City of brotherly love",
+                "image": "philly.jpg"
+            }
+
+            destinationCard1 = new destinationCard(destinationCard1Json.id, destinationCard1Json.location, destinationCard1Json.description, destinationCard1Json.image);
+            
+        </script>
+    </body>
+</html>
