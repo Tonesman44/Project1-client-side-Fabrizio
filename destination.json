@@ -1,0 +1,61 @@
+[
+    {
+        "id": "1",
+        "name": "Philadelphia",
+        "image": "philly.jpg",
+        "description": "City of brotherly love",
+        "details": {
+            "long_description": "This is a long description",
+            "itinerary": [
+                "Day_1: this happened on day 1",
+                "Day_1: this happened on day 1",
+                "Day_1: this happened on day 1"
+            ],
+            "location": {
+                "latitude": 123,
+                "longitude": 123
+            }
+        }
+    },
+
+    {
+        "id": "2",
+        "name": "Las Vegas",
+        "image": "philly.jpg",
+        "description": "Place to gamble",
+        "details": {
+            "long_description": "This is a long description",
+            "itinerary": [
+                "Day 1: This happened on day 1",
+                "Day 2: This happened on day 2",
+                "Day 3: This happened on day 3"
+            ],
+            "location": {
+                "latitude": 123,
+                "longitude": 123
+            }
+        }
+    },
+
+    {
+        "id": "1",
+        "name": "Philadelphia",
+        "image": "philly.jpg",
+        "description": "City of brotherly love",
+        "details": {
+            "long_description": "This is a long description",
+            "itinerary": [
+                "Day_1: this happened on day 1",
+                "Day_1: this happened on day 1",
+                "Day_1: this happened on day 1"
+            ],
+            "location": {
+                "latitude": 123,
+                "longitude": 123
+            }
+        }
+    }
+]
+
+
+
