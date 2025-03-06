@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="destination-title">Loading...</h1>
+    </header>
 
-    </head>
-    <body>
-        A larger image of the destination.
-    <!-- ▪ A detailed description of the place.
-    ▪ A tentative itinerary (list of things to do, places to visit).
-    ▪ A map to show the location of the destination (use a library like Leaflet or embed a Google Static
-    Map).
-    ▪ A booking form to allow users to select a destination and provide their details -->
+    <main id="destination-content">
+        <img id="destination-img" src="" alt="Destination Image">
+        <p id="destination-description"></p>
+        <h2>Itinerary</h2>
+        <ul id="destination-itinerary"></ul>
 
-        <h1>Destination title</h1>
+        <h2>Location</h2>
+        <iframe id="destination-map" width="100%" height="300" frameborder="0"></iframe>
 
+        <h2>Book Your Trip</h2>
         <form id="booking-form">
-            <h3>Book Your Trip</h3>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <button type="submit">Book Now</button>
         </form>
-        
-
-        <script>
-            // card constructor
-            function destinationCard(id, location, description, image) {
-                this.id = id;
-                this.location = location;
-                this.description = description;
-                this.image = image;
-            }
-        </script>
-    </body>
+    </main>
+</body>
 </html>
