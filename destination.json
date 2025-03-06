@@ -3,55 +3,53 @@
         "id": "1",
         "name": "Philadelphia",
         "image": "philly.jpg",
-        "description": "City of brotherly love",
+        "description": "The historic city of brotherly love, home to the Liberty Bell and rich American history.",
         "details": {
-            "long_description": "This is a long description",
+            "long_description": "Philadelphia, Pennsylvania, is known for its pivotal role in American history. It's home to iconic landmarks like Independence Hall and the Liberty Bell, as well as a vibrant food scene featuring the famous Philly cheesesteak.",
             "itinerary": [
-                "Day_1: this happened on day 1",
-                "Day_1: this happened on day 1",
-                "Day_1: this happened on day 1"
+                "Day 1: Visit Independence Hall, see the Liberty Bell, and explore Old City.",
+                "Day 2: Walk through the Philadelphia Museum of Art and run up the 'Rocky Steps.'",
+                "Day 3: Stroll through Reading Terminal Market and try an authentic Philly cheesesteak."
             ],
             "location": {
-                "latitude": 123,
-                "longitude": 123
+                "latitude": 39.9526,
+                "longitude": -75.1652
             }
         }
     },
-
     {
-        "id": "2",
-        "name": "Las Vegas",
-        "image": "philly.jpg",
-        "description": "Place to gamble",
+        "id": "3",
+        "name": "France",
+        "image": "France2.jpg",
+        "description": "A country of romance, art, and fine cuisine, home to Paris, the Eiffel Tower, and beautiful countryside.",
         "details": {
-            "long_description": "This is a long description",
+            "long_description": "France is known for its rich history, stunning architecture, and world-class cuisine. From the romantic streets of Paris to the scenic vineyards of Bordeaux and the sunny beaches of the French Riviera, France offers an unforgettable experience.",
             "itinerary": [
-                "Day 1: This happened on day 1",
-                "Day 2: This happened on day 2",
-                "Day 3: This happened on day 3"
+                "Day 1: Explore Paris – Visit the Eiffel Tower, Louvre Museum, and stroll along the Seine River.",
+                "Day 2: Take a day trip to Versailles to see the grand palace and gardens.",
+                "Day 3: Discover the charming streets of Montmartre and enjoy authentic French cuisine."
             ],
             "location": {
-                "latitude": 123,
-                "longitude": 123
+                "latitude": 48.8566,
+                "longitude": 2.3522
             }
         }
     },
-
     {
-        "id": "1",
-        "name": "Philadelphia",
-        "image": "philly.jpg",
-        "description": "City of brotherly love",
+        "id": "3",
+        "name": "Kyoto",
+        "image": "kyoto.jpg",
+        "description": "The cultural heart of Japan, known for its temples and cherry blossoms.",
         "details": {
-            "long_description": "This is a long description",
+            "long_description": "Kyoto, the former capital of Japan, is famous for its historic temples, traditional tea houses, and stunning gardens. It offers a glimpse into Japan’s rich cultural heritage.",
             "itinerary": [
-                "Day_1: this happened on day 1",
-                "Day_1: this happened on day 1",
-                "Day_1: this happened on day 1"
+                "Day 1: Visit Fushimi Inari Shrine and explore the Torii gates.",
+                "Day 2: Discover Kinkaku-ji (Golden Pavilion) and stroll through Arashiyama Bamboo Forest.",
+                "Day 3: Walk through the Gion district and experience a traditional tea ceremony."
             ],
             "location": {
-                "latitude": 123,
-                "longitude": 123
+                "latitude": 35.0116,
+                "longitude": 135.7681
             }
         }
     }
