@@ -36,3 +36,39 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(error => console.error("Error loading destinations:", error));
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("booking-form");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const destination = document.getElementById("destination").value;
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const travelers = document.getElementById("travelers").value;
+        const date = document.getElementById("date").value;
+
+        const today = new Date().toISOString().split("T")[0];
+
+        if (!name || !email || !travelers || !date) {
+            alert("All fields are required!");
+            return;
+        }
+
+        if (date < today) {
+            alert("Travel date cannot be in the past!");
+            return;
+        }
+
+        if (travelers < 1) {
+            alert("Number of travelers must be at least 1!");
+            return;
+        }
+
+        console.log("Booking Details:", { destination, name, email, travelers, date });
+        alert("Tour Booked!");
+        form.reset();
+    });
+});
+
+
