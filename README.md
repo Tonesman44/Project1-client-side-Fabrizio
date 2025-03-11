@@ -17,3 +17,10 @@ The Travel Portal is a web application that showcases various travel destination
 - **JavaScript**: Dynamic content handling and interactivity.
 - **JSON**: Data storage and retrieval.
 - **Leaflet/Google Maps API**: Map integration for location display.
+
+## How to Run:
+- Open the index.html file with a live server.
+- Verify cards render with correct JSON data
+- Click a card and verify it takes you to a detail view
+- Test booking form and see that it gives an alert that says booked and logs data for the booking
+- Test responsiveness like a mobile and desktop view
