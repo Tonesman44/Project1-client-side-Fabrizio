@@ -14,9 +14,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     card.innerHTML = `
                         <img src="${dest.image}" alt="${dest.name}">
                         <h3>${dest.name}</h3>
-                        <p>${dest.description}</p>
+                        <p class="description">${dest.description}</p>
                     `;
                     container.appendChild(card);
+                });
+                document.getElementById("search-bar").addEventListener("input", function () {
+                    const searchQuery = this.value.toLowerCase();
+                    const destinationCards = document.querySelectorAll(".destination-card");
+
+                    destinationCards.forEach(card => {
+                        const title = card.querySelector("h3").textContent.toLowerCase();
+                        const description = card.querySelector(".description").textContent.toLowerCase();
+
+                        if (title.includes(searchQuery) || description.includes(searchQuery)) {
+                            card.style.display = "block";
+                        } else {
+                            card.style.display = "none";
+                        }
+                    });
                 });
             } else {
                 const destination = destinations.find(d => d.id == destinationId);
@@ -70,5 +85,3 @@ document.addEventListener("DOMContentLoaded", function () {
         form.reset();
     });
 });
-
-
