@@ -21,10 +21,28 @@
         <h2>Location</h2>
         <iframe id="destination-map" width="100%" height="300" frameborder="0"></iframe>
 
-        <h2>Book Your Trip</h2>
         <form id="booking-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
+            <h3>Book Your Trip</h3>
+            
+            <label for="destination">Destination:</label>
+            <select id="destination" required>
+                <option value="Kyoto">Kyoto</option>
+                <option value="France">France</option>
+                <option value="Philadelphia">Philadelphia</option>
+            </select>
+        
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        
+            <label for="travelers">Number of Travelers:</label>
+            <input type="number" id="travelers" min="1" value="1" required>
+        
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" required>
+        
             <button type="submit">Book Now</button>
         </form>
     </main>
